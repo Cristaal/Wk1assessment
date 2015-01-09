@@ -8,8 +8,13 @@ get('/') do
 end
 
 get('/result') do
-  @sentence = params.fetch("first_sentence")
-  @search = params.fetch("first_sentence").wordfreq("search_word")
-  @result = params.fetch("first_sentence").wordfreq("search_word")
+  @first_sentence = params.fetch("first_sentence")
+  @search_word = params.fetch("search_word")
+  @result = params.fetch("first_sentence").wordfreq(params.fetch("search_word"))
   erb(:result)
 end
+
+#get('/result') do
+  #@result = params.fetch("first_sentence").wordfreq("search_word")
+  #erb(:result)
+#end
