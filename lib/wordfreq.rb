@@ -6,8 +6,9 @@ class String
     word_list = stripped_string.split(" ")
     result = word_list.count(find_word)
     if word_list.count(find_word).==(1)
-      result = "This word only appears once."
+      result
     end
     result
   end
 end
+ssie70

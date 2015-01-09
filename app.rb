@@ -13,8 +13,3 @@ get('/result') do
   @result = params.fetch("first_sentence").wordfreq(params.fetch("search_word"))
   erb(:result)
 end
-
-#get('/result') do
-  #@result = params.fetch("first_sentence").wordfreq("search_word")
-  #erb(:result)
-#end

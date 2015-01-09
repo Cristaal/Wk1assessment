@@ -18,6 +18,6 @@ describe('String#wordfreq') do
     expect("already did that already".wordfreq("already")).to(eq(2))
   end
   it('assumes that if the word only shows up once, it will return a message in the singualar tense') do
-    expect("Is that okay?".wordfreq("okay")).to(eq("This word only appears once."))
+    expect("Is that okay?".wordfreq("okay")).to(eq("1"))
   end
 end
