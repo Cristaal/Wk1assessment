@@ -1,10 +1,10 @@
-#require('sinatra')
-#require('sinatra/reloader')
-#gem('sinatra-contrib')
+require('sinatra')
+require('sinatra/reloader')
+gem('sinatra-contrib')
 
-#require('./lib/wordfreq')
+require('./lib/wordfreq')
 
 
-#get('/') do
-  #{}"test"
-#end
+get('/form') do
+  "test"
+end
