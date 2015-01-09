@@ -1,0 +1,14 @@
+Ruby 2.1.5
+
+Run '$ gem install bundler'
+
+Run '$ bundle' in project directory to install necessary gems
+
+Launch Sinatra app with '$ ruby app.rb'
+
+Go to https://localhost:4567/
+
+
+GPL v2 Copyright 2015 Crystal Contreras-Grossman
+
+Known bugs: None at this juncture.

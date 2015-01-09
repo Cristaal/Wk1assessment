@@ -11,4 +11,3 @@ class String
     result
   end
 end
-ssie70
